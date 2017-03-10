@@ -18,5 +18,9 @@
   "homepage": "https://github.com/richRemer/pokeit#readme",
   "dependencies": {
     "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^3.2.0"
   }
 }
