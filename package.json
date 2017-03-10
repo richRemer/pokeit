@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/richRemer/pokeit/issues"
   },
-  "homepage": "https://github.com/richRemer/pokeit#readme"
+  "homepage": "https://github.com/richRemer/pokeit#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
 }
