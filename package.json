@@ -1,0 +1,19 @@
+{
+  "name": "pokeit",
+  "version": "0.0.1",
+  "description": "Push buttons; do things",
+  "main": "pokeit.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/richRemer/pokeit.git"
+  },
+  "author": "Richard Remer <reanjr@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/richRemer/pokeit/issues"
+  },
+  "homepage": "https://github.com/richRemer/pokeit#readme"
+}
