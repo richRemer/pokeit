@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/richRemer/pokeit#readme",
   "dependencies": {
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "passport": "^0.3.2",
+    "passport-google-oauth2": "^0.1.6"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
