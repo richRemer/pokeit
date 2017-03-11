@@ -14,11 +14,6 @@ const tlsKey = process.env.TLS_KEY;
 const users = new Map();
 
 var app = express();
-console.log({
-    clientID: clientIdent,
-    clientSecret: clientSecret,
-    callbackURL: "https://passport.zingle.me/auth/verify"
-});
 
 google = new GoogleStrategy({
     clientID: clientIdent,
