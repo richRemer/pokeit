@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Pokeit - poke buttons, do things</title>
+        <link rel="stylesheet" type="text/css" href="../dist/pokeit.css">
+        <script src="lib/require1k.js" data-main="script/pokeit.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Pokeit</h1>
+            <section id="authbar">
+                <template id="authbar:name">
+                    <span data-text="name">Muhammad Li</span>
+                </template>
+
+                <template id="authbar:profile">
+                    <a href="/me" data-text="name">Muhammad Li</a>
+                </template>
+
+                <span>&hellip;</span>
+            </section>
+        </header>
+
+        <main>
+            <header>
+                <h1>poke buttons, do things</h1>
+            </header>
+
+            <template id="main:anonymous">
+                <section id="anonymous">
+                    <p>You need to <a href="/auth">login</a> before you can poke
+                        buttons.</p>
+                </section>
+            </template>
+
+            <template id="home:unregistered">
+                <section id="unregistered">
+                    <p>You can't poke buttons until someone says you're legit.</p>
+                    <a href="/register">let me poke buttons</a>
+                </section>
+            </template>
+
+            <template id="home:pending">
+                <section id="pending">
+                    <p>Your desire to poke buttons has been noted.</p>
+                </section>
+            </template>
+
+            <template id="home:member">
+                <section id="member">
+                    <p>You don't have any buttons to poke.</p>
+                </section>
+            </template>
+
+            <section id="loading">
+                <span>&hellip;</span>
+            </section>
+        </main>
+
+        <footer>
+            <span class="tagline">launching</span>
+        </footer>
+    </body>
+</html>
