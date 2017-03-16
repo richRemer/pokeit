@@ -36,6 +36,11 @@ app.use(session({secret: "foo", resave: true, saveUninitialized: true}));
 app.use(passport.initialize());
 app.use(passport.session());
 
+app.use(express.static(__dirname + "/srv"));
+app.use("/lib", express.static(__dirname + "/lib"));
+app.use("/src", express.static(__dirname + "/src"));
+app.use("/dist", express.static(__dirname + "/dist"));
+
 app.get("/auth", passport.authenticate("google", {
     scope: ["profile", "email"]
 }));
