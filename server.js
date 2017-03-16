@@ -55,6 +55,10 @@ app.get("/me", (req, res) => {
     res.end();
 });
 
+app.get("/", (req, res) => {
+    res.redirect("/pokeit.html")
+});
+
 https.createServer({
     key: fs.readFileSync(tlsKey),
     cert: fs.readFileSync(tlsCert)
